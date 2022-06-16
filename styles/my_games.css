@@ -1,0 +1,9 @@
+/* Change background image */
+header {
+	background-image: url("../images/backgrounds/dark-my-games-background.png");
+}
+
+/* Change highlighted nav link */
+nav a[href="my_games.html"] {
+	color: var(--call-to-action-color);
+}

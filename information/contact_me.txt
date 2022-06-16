@@ -1,0 +1,17 @@
+CONTACT ME
+
+CONTACT INFORMATION
+	PHONE NUMBER
+		(291) 172-2138
+	EMAIL
+		gamedevtales@gmail.com
+	
+HAVE A SPECIFIC QUESTION?
+	NAME
+	EMAIL
+	List of FAQ and Other to ask specific QUESTION
+		Where can I find your games?
+		Can I get a discount on your games?
+		Where can I find the source code?
+		Other
+	Submit - with validation

@@ -1,0 +1,8 @@
+TOPIC
+	Game Development Blog
+
+BRAND NAME
+	Game Dev Tales
+	
+What They Do
+	A Game Development Blog that talks about the games they've made and gives advice to other game developers

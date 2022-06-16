@@ -1,0 +1,11 @@
+HOME
+
+About Us
+	This is a game development blog where I update people on the process of making my games. Here you can find useful information and tips on how to be a great game developer.
+	
+Who Are We
+	Alex Carron
+		16 year old male game developer. I am a game developer that creates indie games in my on home.
+			
+	Zachary Hendrix
+		17 year old male website designer. Creator of this website's design and funcitonality.

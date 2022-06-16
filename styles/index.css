@@ -1,0 +1,9 @@
+/* Change background image */
+header {
+	background-image: url("../images/backgrounds/dark-home-background.png");
+}
+
+/* Change highlighted nav link */
+nav a[href="index.html"] {
+	color: var(--call-to-action-color);
+}

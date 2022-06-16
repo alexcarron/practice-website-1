@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This is a game development blog where I update people on the process of making my games. Here you can find useful information and tips on how to be a great game developer.">
+	<meta name="author" content="Alexander Carron">
+	
+	<link rel="stylesheet" href="./styles/main.css">
+	<link rel="stylesheet" href="./styles/contact_me.css">
+	
+	<script type="module" src="./scripts/main.js"></script>
+	<script src="./scripts/contact_me.js"></script>
+	
+	<title> Game Dev Tales — Contact Me </title>
+</head>
+<body>
+	
+	<!-- INSERTED WITH JAVASCRIPT -->
+	<nav></nav>
+	
+	
+	<!-- INSERTED WITH JAVASCRIPT -->
+	<header></header>
+	
+	
+	<main>
+		
+		<section>
+			<h2> Contact Information </h2>
+			<div>
+				<div>
+					<h3> Phone Number </h3>
+					<p> <a href="tele:2911722138">(291) 172-2138</a> </p>
+				</div>
+				<div>
+					<h3> Email </h3>
+					<p> <a href="mailto:gamedevtales@gmail.com"> gamedevtales@gmail.com </a> </p>
+				</div>
+			</div>
+		</section>
+		
+		<section>
+			<h2> Have A Specific Question? </h2>
+			<div id="form">
+				<div class="input">
+					<h3>Enter Name</h3>
+					<input type="text" name="user_name" id="user_name_input">
+				</div>
+				<div class="input">
+					<h3>Email</h3>
+					<input type="text" name="email" id="email_input">
+				</div>
+				<div class="input">
+					<h3>What's your question?</h3>
+					<select name="question" id="question_input" onchange="checkSelectedOption()">
+						<option value="Where can I find your games?">Where can I find your games?</option>
+						<option value="Can I get a discount on your games?">Can I get a discount on your games?</option>
+						<option value="Where can I find the source code?">Where can I find the source code?</option>
+						<option value="Other">Other</option>
+					</select>
+				</div>
+				
+				<!-- HIDDEN QUESTION -->
+				<div class="input" id="custom_question_input">
+					<h3>What's your custom question?</h3>
+					<input type="text" name="custom_question">
+				</div>
+				<div class="submit">
+					<button type="submit" onclick="validateInputs()"> Submit Question </button>
+					<p id="feedback_text"> Please fill out all inputs. </p>
+				</div>
+			</div>
+		</section>
+		
+	</main>
+	
+	
+	<!-- INSERTED WITH JAVASCRIPT -->
+	<footer></footer>
+	
+</body>
+</html>

@@ -1,0 +1,13 @@
+/* Change background image */
+header {
+	background-image: url("../images/backgrounds/dark-contact-me-background.png");
+}
+
+/* Change highlighted nav link */
+nav a[href="contact_me.html"] {
+	color: var(--call-to-action-color);
+}
+
+div#custom_question_input {
+	display: none;
+}
